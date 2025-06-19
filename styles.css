@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Shadows+Into+Light&display=swap'); /*font insert*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Shadows+Into+Light&display=swap');
 
 body {
-  background-color: #eaf4ea; 
+  background-color: #eaf4ea;
   color: #444;
   font-family: 'Shadows Into Light', cursive;
   margin: 0;
@@ -35,7 +35,11 @@ p::after {
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
-.summary, .toc {
+
+
+.summary,
+.toc,
+.about {
   background-color: #ffffff;
   padding: 1.5rem;
   border-radius: 16px;
@@ -46,12 +50,14 @@ p::after {
   margin-right: auto;
 }
 
+
 h2 {
   font-family: 'Poppins', sans-serif;
   color: #b28fd4;
   margin-bottom: 0.75rem;
   font-size: 1.4rem;
 }
+
 
 .toc ul {
   list-style: none;
@@ -64,5 +70,39 @@ h2 {
   margin-bottom: 0.5rem;
   padding: 0.6rem 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.02);
+}
+
+.about p {
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  color: #444;
+}
+.about p:hover {
+  background-color: #fef6f9;
+  padding: 0.6rem;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+
+.about-img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #fdf1f8;
+  color: #b28fd4;
+  font-size: 0.9rem;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 3rem;
+  border-top: 1px dashed #f4c6d9;
 }
